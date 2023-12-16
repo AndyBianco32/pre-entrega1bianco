@@ -1,0 +1,436 @@
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+li, a {
+    display: inline-block;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    color: black;
+}
+/* ///////////ESTILOS DE HEADER/////////// */
+
+#header{
+    width: 100%;
+    height: 630px;
+    min-height: 100vh;
+    /* border: 1px solid black; */
+}
+
+.headerInicio{
+    background-image: url(../IMG/1PAG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+.headerRazas{
+    background-image: url(../IMG/2PAG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+.headerSalud{
+    background-image: url(../IMG/3PAG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+.headerEntrenamiento{
+    background-image: url(../IMG/4PAG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+.headerCuriosidades{
+    background-image: url(../IMG/FINAL.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+#nav {
+    width: 100%;
+    height: 14%;
+    /* border: 1px solid black; */
+}
+#nav img, #nav a, #nav ul {
+    display: inline-block;   
+}
+
+#nav ul li a {
+    margin-left: 18px;
+    font-size: 25px;
+    color: black;
+}
+
+.imgLogo {
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    margin-left: 25px;
+}
+
+.navLinks {
+    display: flex;
+    margin-left: 400px;  
+}
+
+/* /////////ESTILOS SECCION DEL HEADER///////////// */
+
+#portadaPrincipal {
+    width: 100%;
+    height: 86%;
+    /* border: 1px solid black; */
+    
+}
+.tituloPortadaInicio {
+    margin-top: 50px;
+    margin-left: 80px;
+    font-size: 32px;
+}
+
+.primerParrafoInicio {
+    /* border: 1px solid black; */
+    height: 250px;
+    width: 350px;
+    margin-top: 70px;
+    margin-left: 100px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.tituloPortadaRazas{
+    margin-top: 50px;
+    margin-left: 900px;
+    font-size: 32px;
+}
+.primerParrafoRazas{
+    /* border: 1px solid black; */
+    height: 250px;
+    width: 350px;
+    margin-top: 70px;
+    margin-left: 900px;
+    font-size: 25px;
+    text-align:center;  
+}
+
+.tituloPortadaSalud{
+    margin-top: 50px;
+    margin-left: 70px;
+    font-size: 32px;
+}
+.primerParrafoSalud{
+  /* border: 1px solid black; */
+  height: 250px;
+  width: 350px;
+  margin-top: 70px;
+  margin-left: 75px;
+  font-size: 25px;
+  text-align: start;  
+}
+.tituloPortadaEntrenamiento{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 32px;
+}
+.primerParrafoEntrenamiento{
+    /* border: 1px solid black; */
+  height: 300px;
+  width: 300px;
+  margin-top: 70px;
+  margin-left: 55px;
+  font-size: 25px;
+  text-align: start;  
+}
+.tituloPortadaCuriosidades{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 32px;
+}
+.primerParrafoCuriosidades{
+    /* border: 1px solid black; */
+  height: 300px;
+  width: 300px;
+  margin-top: 70px;
+  margin-left: 55px;
+  font-size: 25px;
+  text-align: start; 
+}
+
+/* //////////////ESTILOS DEL MAIN////////////// */
+
+
+/* estilos de secciones y articulo Inicio */
+
+#seccionPrincipalInicio {
+    width: 100%;
+    height: 1200px;
+    border: 1px solid black;
+}
+.introduccion {
+    width: 100%;
+    height: 34%;
+    border: 1px solid black;
+    background-color: rgb(217, 217, 217);
+}
+
+.desarrollo {
+    width: 100%;
+    height: 33%;
+    border: 1px solid black;
+    background-color: rgb(201, 188, 157);
+}
+
+.desenlace {
+    width: 100%;
+    height: 33%;
+    border: 1px solid black;
+    background-color: rgb(217, 217, 217);  
+}
+
+/* estilos de secciones y articulo Raza */
+
+#seccionPrincipalRaza{
+    width: 100%;
+    height: 1640px;
+    border: 1px solid black;
+}
+
+.raza1, .raza2, .raza3, .raza4, .raza5, .raza6, .raza7{
+    width: 100%;
+    height: 14.3%;
+    border: 1px solid black;   
+}
+.raza1{
+    background-color: rgb(217, 217, 217);
+}
+.raza2{
+    background-color: rgb(201, 188, 157)
+}
+.raza3{
+    background-color: rgb(217, 217, 217);
+}
+.raza4{
+    background-color: rgb(254, 253, 252);
+}
+.raza5{
+    background-color: rgb(217, 217, 217);
+}
+.raza6{
+    background-color: rgb(242, 241, 241);
+}
+.raza7{
+    background-color: rgb(217, 217, 217);
+}
+
+/* estilos de secciones y articulo Salud */
+
+#mainSalud{
+    width: 100%;
+    height: 1460px;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+
+#seccionPrimeraSalud{
+    height: 100%;
+    width: 35%;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(217, 217, 217);
+}
+    
+#seccionSegundaSalud{
+    
+    height: 40%;
+    width: 65%;
+    border: 1px solid black;
+    background-color: rgb(201, 188, 157)
+}
+#seccionTerceraSalud{
+    height: 60%;
+    width: 65%;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+}
+
+/* estilos de secciones y articulo Entrenamiento */
+
+#mainEntrenamiento{
+    width: 100%;
+    height: 1460px;
+    border: 1px solid black;
+}
+
+#seccionPrimeraEntrenamiento{
+    width: 100%;
+    height: 30%;
+    border: 1px solid black;
+    background-color: rgb(217, 217, 217);
+}
+#seccionSegundaEntrenamiento{
+    width: 100%;
+    height: 70%;
+    border: 1px solid black;
+    background-color: rgb(201, 188, 157)
+}
+
+/* estilos de secciones y articulo Curiosidades */
+
+#mainCuriosidades{
+    width: 100%;
+    height: 1520px;
+    display: flex;
+}
+#seccionPrimeraCuriosidades{
+    width:60% ;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(217, 217, 217);
+}
+.articulo1Curiosidades{
+    width: 80%;
+    height: 40%;
+    border: 1px solid black;
+    border-radius: 2%;
+    background-color: rgb(199, 186, 156);
+}
+.articulo2Curiosidades{
+    width: 80%;
+    height: 40%;
+    border: 1px solid black;
+    border-radius: 2%;
+    background-color: rgb(199, 186, 156);
+}
+
+#seccionSegundaCuriosidades{
+    width: 40%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(217, 217, 217);
+}
+.asideCuriosidades{
+    width: 80%;
+    height: 90%;
+    border: 1px solid black;
+    border-radius: 2%;
+    background-color: rgb(199, 186, 156);
+    padding: 35px;
+}
+
+/* ///////////estilos de los div////////// */
+
+.divInicio{
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    margin-left: 1240px;
+    margin-top: 315px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divRazas{
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    margin-left: 1250px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divSalud{
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    margin-left: 790px;
+    margin-top: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divEntrenamiento{
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    margin-left: 1250px;
+    margin-top: 940px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divCuriosidades{
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    margin-left: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* //////////////ESTILOS DEL FOOTER ///////////*/
+
+#footer{
+    margin-top: auto;
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+}
+
+/* footer logo */
+.footerlcons{
+    display: block;
+    font-size: 15px;
+    text-align: center;    
+}
+.imgIconsDog{
+    width: 70px;
+    height: 70px;
+}
+ 
+/* footer email */
+.footerEmail{
+    font-size: 15px;
+    text-align: center;    
+}
+
+/* footer redes */
+.footerRedes {
+    font-size: 15px;
+    text-align: center;   
+}
+
+.imgLogoFace, .imgLogoInst, .imgLogoPint {
+    width: 50px;
+    height: 50px;
+}
+    
